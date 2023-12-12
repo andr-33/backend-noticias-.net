@@ -13,6 +13,6 @@ namespace TheHomingPigeon.Data.Interface
 
         Task<bool> InsertUser(User user);
 
-        Task<bool> ValidateExistUser(string username);
+        Task<bool> ValidateExistUser(string username, string email);
     }
 }

@@ -2963,23 +2963,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Andreé\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon\\TheHomingPigeon.csproj",
+      "projectUniqueName": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon\\TheHomingPigeon.csproj",
       "projectName": "TheHomingPigeon",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon\\TheHomingPigeon.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon\\obj\\",
+      "projectPath": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon\\TheHomingPigeon.csproj",
+      "packagesPath": "C:\\Users\\Andreé\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andreé\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2994,11 +2994,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon.Data\\TheHomingPigeon.Data.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon.Data\\TheHomingPigeon.Data.csproj"
+            "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon.Data\\TheHomingPigeon.Data.csproj": {
+              "projectPath": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon.Data\\TheHomingPigeon.Data.csproj"
             },
-            "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj"
+            "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj": {
+              "projectPath": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj"
             }
           }
         }
@@ -3067,7 +3067,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

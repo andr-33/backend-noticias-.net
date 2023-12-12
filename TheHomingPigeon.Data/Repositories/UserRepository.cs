@@ -28,18 +28,22 @@ namespace TheHomingPigeon.Data.Interface
         {
             var hasPassword = BCrypt.Net.BCrypt.HashPassword(user.password);
 
-            var sql = @"INSERT INTO user (name, lastname, username, password, status_active) VALUES (@name, @lastname, @username, @hasPassword, )";
+            var sql = @"INSERT INTO user (username, email, password) VALUES (@Username, @Email ,@Password)";
 
-            var rowsAffected = await _dbConnection.ExecuteAsync(sql, new {  user.username, hasPassword});
+            var parameters = new {Username = user.username, Email = user.email, Password = hasPassword};
+
+            var rowsAffected = await _dbConnection.ExecuteAsync(sql, parameters);
 
             return rowsAffected > 0;
         }
 
-        public async Task<bool> ValidateExistUser(string username)
+        public async Task<bool> ValidateExistUser(string username, string email)
         {
-            var sql = @"SELECT * FROM user WHERE username = @Username AND status_active = 1";
+            var sql = @"SELECT * FROM user WHERE LOWER(username) = LOWER(@Username) OR LOWER(email) = LOWER(@Email)";
 
-            var result = await _dbConnection.QueryFirstOrDefaultAsync<int>(sql, new { Username = username });
+            var parameters = new { Username = username, Email = email};
+
+            var result = await _dbConnection.QueryFirstOrDefaultAsync<int>(sql,parameters);
 
             return result > 0;
         }

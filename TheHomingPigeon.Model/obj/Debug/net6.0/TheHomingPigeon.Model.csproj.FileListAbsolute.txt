@@ -22,3 +22,14 @@ C:\Users\Admin\Documents\Final_M_A\BackEnd-Noticias\TheHomingPigeon.Model\obj\De
 C:\Users\Admin\Documents\Final_M_A\BackEnd-Noticias\TheHomingPigeon.Model\obj\Debug\net6.0\refint\TheHomingPigeon.Model.dll
 C:\Users\Admin\Documents\Final_M_A\BackEnd-Noticias\TheHomingPigeon.Model\obj\Debug\net6.0\TheHomingPigeon.Model.pdb
 C:\Users\Admin\Documents\Final_M_A\BackEnd-Noticias\TheHomingPigeon.Model\obj\Debug\net6.0\ref\TheHomingPigeon.Model.dll
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\bin\Debug\net6.0\TheHomingPigeon.Model.deps.json
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\bin\Debug\net6.0\TheHomingPigeon.Model.dll
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\bin\Debug\net6.0\TheHomingPigeon.Model.pdb
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\TheHomingPigeon.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\TheHomingPigeon.Model.AssemblyInfoInputs.cache
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\TheHomingPigeon.Model.AssemblyInfo.cs
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\TheHomingPigeon.Model.csproj.CoreCompileInputs.cache
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\TheHomingPigeon.Model.dll
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\refint\TheHomingPigeon.Model.dll
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\TheHomingPigeon.Model.pdb
+C:\Users\Andreé\Source\Repos\backend-noticias-.net\TheHomingPigeon.Model\obj\Debug\net6.0\ref\TheHomingPigeon.Model.dll

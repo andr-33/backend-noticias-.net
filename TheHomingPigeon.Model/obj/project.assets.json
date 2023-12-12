@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Andreé\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj",
       "projectName": "TheHomingPigeon.Model",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\Final_M_A\\BackEnd-Noticias\\TheHomingPigeon.Model\\obj\\",
+      "projectPath": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon.Model\\TheHomingPigeon.Model.csproj",
+      "packagesPath": "C:\\Users\\Andreé\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andreé\\Source\\Repos\\backend-noticias-.net\\TheHomingPigeon.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andreé\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

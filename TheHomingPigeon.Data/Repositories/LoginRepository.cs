@@ -21,9 +21,11 @@ namespace TheHomingPigeon.Data.Repositories
         }
         public async Task<Login> ExistUser(string username)
         {
-            var sql = @"SELECT * FROM user WHERE user.username = @Username";
+            var sql = @"SELECT * FROM user WHERE LOWER(username) = LOWER(@Username)";
 
-            return await _dbConnection.QueryFirstOrDefaultAsync<Login>(sql, new { Username = username });
+            var parameters = new { Username = username };
+
+            return await _dbConnection.QueryFirstOrDefaultAsync<Login>(sql, parameters);
         }
 
         public async Task<bool> ValidatePassword(string password, string hash)

@@ -55,23 +55,15 @@ namespace TheHomingPigeon.Controllers
                 return BadRequest(ModelState);
             }
 
-            var token = HttpContext.Request.Headers["Token"].FirstOrDefault()?.Split(" ").Last();
-
-            var result = await _jwtValidateController.HandleTokenValidation(token);
-
-            if (result != null)
-            {
-                return result;
-            }
-
-            var validateExistUser = await _userRepository.ValidateExistUser(user.username);
+            var validateExistUser = await _userRepository.ValidateExistUser(user.username, user.email);
 
             if (validateExistUser)
             {
                 var responseExistUser = new
                 {
                     success = false,
-                    message = "El usuario ya está registrado en el sistema, verifique que no esté deshabilitado",
+                    status = 400,
+                    message = "El nombre de usuarion o el correo ya estan en uso",
                     result = false
                 };
 

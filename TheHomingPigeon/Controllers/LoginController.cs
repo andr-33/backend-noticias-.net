@@ -35,34 +35,20 @@ namespace TheHomingPigeon.Controllers
             }
 
 
-            var existUser = await _loginRepository.ExistUser(login.username);
+            var existUser = await _loginRepository.ExistUser(login.Username);
 
 
             if (existUser == null)
             {
                 var responseBadRequest = new
                 {
-                    status = 401,
+                    status = 404,
                     message = "Usuario no registrado",
                     result = false
                 };
 
                 return BadRequest(responseBadRequest);
             }
-
-            //bool isValidPassword = BCrypt.Net.BCrypt.Verify(login.password, existUser.password);
-
-            //if (!isValidPassword)
-            //{
-            //    var responseBadRequest = new
-            //    {
-            //        status = 401,
-            //        message = "Usuario o contraseña incorrecto",
-            //        result = false
-            //    };
-
-            //    return BadRequest(responseBadRequest);
-            //}
 
             var jwt = _configuration.GetSection("Jwt").Get<Jwt>();
 
@@ -71,8 +57,8 @@ namespace TheHomingPigeon.Controllers
                 new Claim(JwtRegisteredClaimNames.Sub, jwt.Subject),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-                new Claim("iduser", existUser.iduser.ToString(), ClaimValueTypes.Integer),
-                new Claim("username", existUser.username)
+                new Claim("iduser", existUser.IdUser.ToString(), ClaimValueTypes.Integer),
+                new Claim("username", existUser.Username)
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key));
@@ -89,8 +75,7 @@ namespace TheHomingPigeon.Controllers
 
             var response = new
             {
-                iduser = existUser.iduser,
-                username = existUser.username,
+                status = 200,
                 result = true,
                 token = new JwtSecurityTokenHandler().WriteToken(token)
             };

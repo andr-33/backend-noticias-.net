@@ -8,8 +8,8 @@ namespace TheHomingPigeon.Model
 {
     public class Login
     {
-        public int iduser { get; set; }
-        public string username { get; set; }
-        public string password { get; set; }
+        public int IdUser { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
